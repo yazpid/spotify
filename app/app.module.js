@@ -4,5 +4,7 @@
         .module('myApp',[
             'ngMaterial',
             'ngMessages',
+            'ui.router',
+            'restangular'
         ]);
 })();
