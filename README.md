@@ -17,3 +17,9 @@ You can install also live-server globally to make life easier and for use with o
 ```
 npm install -g live-server
 ```
+
+If you would like to use gulp tools, let's change branch by
+
+```
+git checkout gulp-automation
+```
