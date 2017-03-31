@@ -1,5 +1,5 @@
 (function () {
-    "use strict"
+    "use strict";
 
     angular
         .module('myApp')
@@ -11,5 +11,6 @@
     function controller($scope) {
 
     }
+
 
 })();

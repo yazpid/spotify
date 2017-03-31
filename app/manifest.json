@@ -1,0 +1,10 @@
+{
+  "short_name": "Angular seed",
+  "name": "Boilerplate to start app",
+  "icons": [
+
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}
