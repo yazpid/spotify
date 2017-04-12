@@ -6,15 +6,16 @@
 
     <!--build:css assets/css/style.min.css-->
     <link rel="stylesheet" href="../node_modules/angular-material/angular-material.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <!--endbuild-->
 </head>
 <body ng-app="myApp">
 
 
-<div layout="column" layout-align="center stretch" flex layout-fill>
-    <app></app>
-</div>
+
+    <app layout="column" flex layout-fill></app>
 
     <!--build:js assets/javascript/main.min.js-->
 
@@ -27,12 +28,22 @@
     <script src="../node_modules/angular-ui-router/release/angular-ui-router.js"></script>
     <script src="../node_modules/lodash/lodash.js"></script>
     <script src="../node_modules/restangular/dist/restangular.js"></script>
+    <script src="../node_modules/rxjs/bundles/Rx.js"></script>
+    <script src="../bower_components/angular-soundmanager2/dist/angular-soundmanager2.js"></script>
 
 
     <script src="app.module.js"></script>
     <script src="app.config.js"></script>
+    <script src="app.route.js"></script>
     <script src="app.component.js"></script>
 
+
+    <script src="partials/artist-search/search-artist.component.js"></script>
+    <script src="templates/menu/menu.component.js"></script>
+
+
+
+    <script src="shared/services/artist.service.js"></script>
     <!--endbuild-->
 
 </body>

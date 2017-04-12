@@ -5,11 +5,22 @@
         .module('myApp')
         .component('app',{
             templateUrl : 'app.view.html',
-            controller : ['$scope', controller]
+            controller : controller,
+            controllerAs : '$rootCtrl'
         });
 
-    function controller($scope) {
+    controller.$inject = ['$scope','$mdSidenav'];
 
+    function controller($scope,$mdSidenav) {
+
+        var ctrl = this;
+
+        ctrl.toggleSideNav = toggleSideNav;
+
+
+        function toggleSideNav() {
+            $mdSidenav('left').toggle();
+        }
     }
 
 

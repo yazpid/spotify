@@ -5,7 +5,7 @@
         .config(appConfig)
 
 
-    function appConfig() {
-
+    function appConfig(RestangularProvider) {
+        RestangularProvider.setBaseUrl('https://api.spotify.com/');
     }
 })();

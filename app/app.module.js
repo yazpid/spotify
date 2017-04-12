@@ -5,6 +5,7 @@
             'ngMaterial',
             'ngMessages',
             'ui.router',
-            'restangular'
+            'restangular',
+            'angularSoundManager',
         ]);
 })();
